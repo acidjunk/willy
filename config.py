@@ -80,7 +80,7 @@ PLUGIN_BLACKLIST = [
 
 # Port to bind the web server to (defaults to $PORT, then 80.)
 # Set > 1024 to run without elevated permission.
-HTTPSERVER_PORT = "443"
+HTTPSERVER_PORT = "80"
 
 
 # ------------------------------------------------------------------------------------
