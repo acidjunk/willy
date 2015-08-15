@@ -5,4 +5,4 @@ class StandupPlugin(WillPlugin):
 
     @periodic(hour='9', minute='30', day_of_week="mon-fri")
     def standup(self):
-        self.say("@all Standup! %s" % settings.WILL_HANGOUT_URL)
+        self.say("@all Standup!")
